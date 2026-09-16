@@ -1,0 +1,61 @@
+### Project-specific: private planning file — do not push ###
+timeline.md
+
+### Environment / Secrets ###
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+### Node / React (frontend) ###
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/coverage/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+### Java / Spring Boot (backend - Gradle) ###
+backend/build/
+backend/.gradle/
+backend/out/
+# Note: gradlew, gradlew.bat, and gradle/wrapper/ SHOULD be committed (Gradle wrapper) — not ignored
+*.class
+*.jar
+*.war
+*.log
+HELP.md
+
+### Blockchain (Solidity / Ganache / Hardhat / Truffle) ###
+blockchain/node_modules/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/build/
+blockchain/typechain/
+blockchain/typechain-types/
+blockchain/.openzeppelin/
+ganache-db/
+
+### IDE / Editor ###
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+### OS ###
+Thumbs.db
+desktop.ini
+
+### Test / Coverage reports ###
+coverage/
+*.lcov
+target/surefire-reports/
+
+### Postman (optional local exports) ###
+*.postman_environment.json
